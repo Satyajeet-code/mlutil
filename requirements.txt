@@ -1,0 +1,17 @@
+numpy==1.13.3
+sklearn==0.0
+sklearn-pandas==1.6.0
+scikit-image==0.13.0
+scikit-learn==0.19.1
+scikit-multilearn==0.0.5
+scikit-plot==0.3.3
+scikit-surprise==1.0.5
+tensorflow
+tensorflow-tensorboard==1.5.0
+tensorpack==0.8.1
+pandas==0.20.3
+pandas-datareader==0.6.0
+pandas-profiling==1.4.1
+pandas-summary==0.0.4
+matplotlib==2.1.0
+matplotlib-venn==0.11.5
