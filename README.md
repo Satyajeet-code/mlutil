@@ -47,12 +47,10 @@ from mlutil import *
 ## 1. 🦄 hyp_pipeline for Hyper Parameters search
 
 This simplifies the entire Hyper-parameters search process in one simple method.
-<table cellspacing="0" cellpadding="0">
-  <tr>
+<table width='100%' align="center">
+  <tr align='center'>
     <td> XGBoost </td>
     <td> LightGBM </td>
-    <td> Keras </td>
-     <td> RandomForest </td>
   </tr>
   <tr>
    <td>
@@ -102,7 +100,7 @@ scoring_fit='accuracy')
 print(model.best_score_)
 print(model.best_params_)
 ```
-</td>
+</td></tr>
 <td>
 
 ```python
@@ -142,7 +140,8 @@ param_grid = {
 }
 model, pred = hyp_pipeline(X_train, X_test,
  y_train, y_test, 
-model,param_grid, cv=5, scoring_fit='accuracy')
+model,param_grid, cv=5, 
+scoring_fit='accuracy')
 
 print(model.best_score_)
 print(model.best_params_)
